@@ -18,7 +18,7 @@ let startCycling = function () {
 let changeImage = function () {
     let nextImage = getNextImage(terminalConfig.profiles.defaults.backgroundImage);
     terminalConfig.profiles.defaults.backgroundImage = nextImage;
-    configHandler.updateTerminalConfig(JSON.stringify(terminalConfig));
+    configHandler.updateTerminalConfig(JSON.stringify(terminalConfig, null, 4));
     console.log(`[Cycler] Changed image to ${nextImage}`);
 }
 
