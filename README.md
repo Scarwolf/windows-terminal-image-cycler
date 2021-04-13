@@ -1,4 +1,4 @@
-#Windows Terminal Image Cycler
+# Windows Terminal Image Cycler
 
 This tool allows you to cycle through a predefined set of images and update your Windows Terminal config file to change the background image.
 
