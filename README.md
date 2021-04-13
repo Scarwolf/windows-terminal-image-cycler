@@ -2,6 +2,11 @@
 
 This tool allows you to cycle through a predefined set of images and update your Windows Terminal config file to change the background image.
 
+#### Info
+
+Currently, this will only work if you have already defined ``profiles.defaults.backgroundImage``.
+
+---
 ### How to use
 Copy ``config.example.json`` to ``config.json``.
 
